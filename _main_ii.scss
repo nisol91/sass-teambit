@@ -2,6 +2,7 @@
   width: 100%;
   height: auto;
   background: $bkgr_primary;
+  padding-bottom: 50px;
   .main_ii_wrapped {
     width: 60%;
     height: 100%;
@@ -35,6 +36,16 @@
       img {
         max-width: 70%;
       }
+    }
+  }
+  .m_ii_bottom {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    img {
+      max-width: 100%;
     }
   }
 }

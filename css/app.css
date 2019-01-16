@@ -139,6 +139,35 @@ h4 {
   z-index: 9999;
 }
 
+#solutions {
+  position: relative;
+}
+
+.nascosto {
+  display: none;
+}
+
+.slide {
+  position: absolute;
+  top: 20px;
+  left: -10px;
+  width: 100px;
+  height: auto;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+  z-index: 9999;
+}
+
+.slide h4 {
+  margin: 15px;
+  text-align: center;
+}
+
+.slide h4:hover {
+  color: #30488f;
+}
+
 .main_i {
   width: 60%;
   margin: auto;
@@ -201,6 +230,7 @@ h4 {
   width: 100%;
   height: auto;
   background: #ffe7d2;
+  padding-bottom: 50px;
 }
 
 .main_ii .main_ii_wrapped {
@@ -241,5 +271,17 @@ h4 {
 
 .main_ii .m_ii_cont .m_ii_cont_elem img {
   max-width: 70%;
+}
+
+.main_ii .m_ii_bottom {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main_ii .m_ii_bottom img {
+  max-width: 100%;
 }
 
