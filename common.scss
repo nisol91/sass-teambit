@@ -1,0 +1,17 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato';
+}
+.btn {
+  border-radius: 5px;
+  border: 1px solid $btn_color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    font-size: 15px;
+    font-weight: 200;
+  }
+}

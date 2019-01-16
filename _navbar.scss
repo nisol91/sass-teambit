@@ -1,0 +1,38 @@
+.nav {
+  height: 70px;
+  width: 60%;
+  margin: auto;
+  border-bottom: 1px solid grey;
+  .nav_left {
+    float: left;
+    width: 20%;
+    height: 100%;
+    img {
+      width: 100px;
+      margin-top: 25px;
+    }
+  }
+  .nav_right {
+    float: right;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    padding-left: 90px;
+  }
+  .n_elem {
+    margin: 25px 20px;
+    h3 {
+      color: $text_primary;
+      font-size: 15px;
+      font-weight: 200;
+    }
+  }
+  .n_btn {
+    width: 90px;
+    height: 40px;
+    margin: 15px;
+    h3 {
+      color: $btn_color;
+    }
+  }
+}
