@@ -48,6 +48,7 @@
       color: $btn_color;
     }
     &:hover {
+      transition: 1s;
       background: $btn_color;
       h3 {
         color: white;
@@ -61,4 +62,5 @@
   position: fixed;
   background: white;
   padding: 0 20%;
+  z-index: 9999;
 }
