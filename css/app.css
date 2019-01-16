@@ -9,6 +9,28 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  color: #58402c;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+h2 {
+  color: #58402c;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+h4 {
+  color: #58402c;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.flex_cont {
+  display: flex;
+}
+
 .container {
   width: 100%;
   height: 1000px;
@@ -18,13 +40,19 @@ a {
   border-radius: 5px;
   border: 1px solid #30488f;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .btn h3 {
   font-size: 15px;
   font-weight: 200;
+}
+
+.btn img {
+  width: 15%;
+  height: 60%;
+  margin: 5px;
 }
 
 .nav {
@@ -48,7 +76,7 @@ a {
 .nav .nav_right {
   float: right;
   height: 100%;
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: flex-end;
   padding-left: 90px;
@@ -64,12 +92,21 @@ a {
   font-weight: 200;
 }
 
-.nav .n_elem h3:hover {
+.nav .n_elem i {
+  color: #58402c;
+  margin: 2px 4px;
+}
+
+.nav .n_elem:hover i {
+  color: #30488f;
+}
+
+.nav .n_elem:hover h3 {
   color: #30488f;
 }
 
 .nav .n_btn {
-  width: 90px;
+  width: 110px;
   height: 40px;
   margin: 15px;
 }
@@ -91,5 +128,69 @@ a {
   position: fixed;
   background: white;
   padding: 0 20%;
+}
+
+.main_i {
+  width: 60%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  padding-top: 80px;
+}
+
+.main_i .main_i_left {
+  width: 50%;
+  height: 100%;
+}
+
+.main_i .main_i_left h1,
+.main_i .main_i_left h2,
+.main_i .main_i_left h4 {
+  margin: 20px;
+}
+
+.main_i .main_i_left h1 i,
+.main_i .main_i_left h2 i,
+.main_i .main_i_left h4 i {
+  margin: 5px;
+}
+
+.main_i .main_i_right {
+  width: 50%;
+  height: 100%;
+}
+
+.main_i .main_i_right img {
+  max-width: 95%;
+  margin-left: 10%;
+}
+
+.main_i .main_i_btn_cont {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_i .main_i_btn_cont .main_i_btn {
+  width: 200px;
+  background: #30488f;
+  margin: 0 20px;
+}
+
+.main_i .main_i_btn_cont .main_i_btn:hover {
+  background: #1d2b56;
+  transition: 1s;
+}
+
+.main_i .main_i_btn_cont .main_i_btn h3 {
+  color: white;
+}
+
+.main_ii {
+  width: 100%;
+  height: 500px;
+  background: #ffe7d2;
 }
 

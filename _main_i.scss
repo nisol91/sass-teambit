@@ -1,0 +1,44 @@
+.main_i {
+  width: 60%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  padding-top: 80px;
+  .main_i_left {
+    width: 50%;
+    height: 100%;
+    h1, h2, h4 {
+      margin: 20px;
+      i {
+        margin: 5px;
+      }
+    }
+  }
+  .main_i_right {
+    width: 50%;
+    height: 100%;
+    img {
+      max-width: 95%;
+      margin-left: 10%;
+    }
+  }
+  .main_i_btn_cont {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main_i_btn {
+      width: 200px;
+      background: $btn_color;
+      margin: 0 20px;
+      &:hover {
+        background: darken($btn_color, 15%);
+        transition: 1s;
+      }
+      h3 {
+        color: white;
+      }
+    }
+  }
+}
