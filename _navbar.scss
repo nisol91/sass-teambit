@@ -17,6 +17,7 @@
     height: 100%;
     width: 50%;
     display: flex;
+    justify-content: flex-end;
     padding-left: 90px;
   }
   .n_elem {
@@ -25,6 +26,9 @@
       color: $text_primary;
       font-size: 15px;
       font-weight: 200;
+      &:hover {
+        color: $btn_color;
+      }
     }
   }
   .n_btn {
@@ -34,5 +38,18 @@
     h3 {
       color: $btn_color;
     }
+    &:hover {
+      background: $btn_color;
+      h3 {
+        color: white;
+      }
+    }
   }
+}
+//jquery scroll
+.nav_scroll {
+  width: 100%;
+  position: fixed;
+  background: white;
+  padding: 0 20%;
 }

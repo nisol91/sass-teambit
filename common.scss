@@ -4,6 +4,13 @@
   box-sizing: border-box;
   font-family: 'Lato';
 }
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  height: 1000px;
+}
 .btn {
   border-radius: 5px;
   border: 1px solid $btn_color;
