@@ -12,7 +12,7 @@ let mix = require('laravel-mix');
  */
 
 //prende il file .scss e lo compila sotto forma di file .css, comprensivile dal browser.
-mix.sass('app.scss', 'css/app.css');
+mix.sass('partials/app.scss', 'css/app.css');
 
 // Full API
 // mix.js(src, output);
