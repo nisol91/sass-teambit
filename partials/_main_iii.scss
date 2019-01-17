@@ -1,0 +1,43 @@
+.main_iii {
+  width: 100%;
+  height: auto;
+  display: flex;
+  .m_iii_left, .m_iii_right {
+    width: 50%;
+    height: 100%;
+  }
+  .m_iii_left {
+    padding: 3%;
+    padding-left: 8%;
+    img {
+      max-width: 90%;
+    }
+  }
+  .m_iii_right {
+    img {
+      max-width: 50%;
+      width: 280px;
+      height: 200px;
+      margin-top: 20px;
+    }
+    h2 {
+      font-size: 30px;
+      width: 450px;
+      margin-top: 100px;
+    }
+    h4 {
+      font-size: 18px;
+      width: 450px;
+      margin-top: 30px;
+    }
+    h5 {
+      margin-top: 30px;
+      font-size: 20px;
+      color: $btn_color;
+      i {
+        margin-left: 20px;
+        color: $btn_color;
+      }
+    }
+  }
+}

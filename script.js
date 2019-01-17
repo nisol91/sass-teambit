@@ -19,5 +19,5 @@ $(document).ready(function() {
   $('.slide').mouseleave(function() {
     $('.slide').slideUp('slow');
   });
-  
+
 });
