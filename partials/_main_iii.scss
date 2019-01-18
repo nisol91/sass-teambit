@@ -2,11 +2,16 @@
   width: 100%;
   height: auto;
   display: flex;
-  .m_iii_left, .m_iii_right {
-    width: 50%;
+  %m_iii {
+    width: 80%;
     height: 100%;
   }
+  //con % ho creato una classe fittizia che non viene nemmeno inserita nel css(per non appesantirlo)
+  //poi la aggiungo dove voglio.
+  //in alternativa potevo usare un mixin. Alla fine sia extend con % che include con mixin sono come variabili contenenti proprieta.
+  //[in realta mixin piu che una variabile e' una funzione]
   .m_iii_left {
+    @extend %m_iii;
     padding: 3%;
     padding-left: 8%;
     img {
@@ -14,6 +19,7 @@
     }
   }
   .m_iii_right {
+    @extend %m_iii;
     img {
       max-width: 50%;
       width: 280px;

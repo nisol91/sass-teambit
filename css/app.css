@@ -2,7 +2,7 @@
   border: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Lato";
+  font-family: "Montserrat";
 }
 
 a {
@@ -156,7 +156,7 @@ h4 {
   height: auto;
   background: white;
   border-radius: 8px;
-  border: 1px solid lightgrey;
+  border: 1px solid grey;
   z-index: 9999;
 }
 
@@ -226,6 +226,7 @@ h4 {
 
 .main_i .main_i_btn_cont .main_i_btn h3 {
   color: white;
+  font-size: 14px;
 }
 
 .main_ii {
@@ -304,9 +305,9 @@ h4 {
   display: flex;
 }
 
-.main_iii .m_iii_left,
-.main_iii .m_iii_right {
-  width: 50%;
+.main_iii .m_iii_right,
+.main_iii .m_iii_left {
+  width: 80%;
   height: 100%;
 }
 

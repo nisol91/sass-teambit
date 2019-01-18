@@ -1,6 +1,10 @@
-.nav {
+@mixin mynav {
   height: 70px;
   width: 60%;
+}
+//mixin classico 
+.nav {
+@include mynav;
   margin: auto;
   border-bottom: 1px solid grey;
   .nav_left {
@@ -72,6 +76,10 @@
 .nascosto {
   display: none;
 }
+//mixin con variabile
+@mixin myFavBorder($coloreBordo) {
+  border: 1px solid $coloreBordo;
+}
 .slide {
   position: absolute;
   top: 20px;
@@ -80,7 +88,7 @@
   height: auto;
   background: white;
   border-radius: 8px;
-  border: 1px solid lightgrey;
+  @include myFavBorder(grey);
   z-index: 9999;
   h4 {
     margin: 15px;
